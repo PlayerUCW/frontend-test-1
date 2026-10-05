@@ -74,10 +74,13 @@ header {
 }
 
 main {
+	height: 100vh;
+
+	box-sizing: content-box;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 100%;
 }
 
 .logo {
